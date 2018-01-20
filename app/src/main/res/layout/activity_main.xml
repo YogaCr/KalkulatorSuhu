@@ -71,15 +71,17 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/angka1"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="130dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:background="@android:color/darker_gray"
                     android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="1"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -88,10 +90,12 @@
                     android:id="@+id/angka2"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
                     android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="2"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -100,10 +104,12 @@
                     android:id="@+id/angka3"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
                     android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="3"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -111,51 +117,17 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/angka7"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="130dp"
-                    android:layout_height="100dp"
-                    android:background="@android:color/darker_gray"
-                    android:text="7"
-                    android:textColor="@android:color/white"
-                    android:textSize="30sp" />
-
-                <Button
-                    android:id="@+id/angka8"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="56dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/darker_gray"
-                    android:text="8"
-                    android:textColor="@android:color/white"
-                    android:textSize="30sp" />
-
-                <Button
-                    android:id="@+id/angka9"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="56dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/darker_gray"
-                    android:text="9"
-                    android:textColor="@android:color/white"
-                    android:textSize="30sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/angka4"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="130dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="4"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -164,9 +136,12 @@
                     android:id="@+id/angka5"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="5"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -175,9 +150,12 @@
                     android:id="@+id/angka6"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="6"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -186,14 +164,63 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/angka7"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:text="7"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/angka8"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:text="8"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/angka9"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:text="9"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/clear"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="130dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="C"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -202,9 +229,12 @@
                     android:id="@+id/angka0"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
                     android:text="0"
                     android:textColor="@android:color/white"
                     android:textSize="30sp" />
@@ -213,9 +243,13 @@
                     android:id="@+id/delete"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="56dp"
-                    android:layout_height="100dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/darker_gray"
+                    android:onClick="Klik"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="20dp"
+                    android:scaleType="fitCenter"
                     android:src="?android:attr/homeAsUpIndicator"
                     android:textColor="@android:color/white"
                     android:textSize="30sp"
@@ -223,4 +257,5 @@
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
+
 </LinearLayout>

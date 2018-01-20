@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HitungSuhu</string>
+    <string name="app_name">Hitung Suhu</string>
     <string name="ButtonValue">1</string>
     <string-array name="suhu">
         <item>Celcius</item>

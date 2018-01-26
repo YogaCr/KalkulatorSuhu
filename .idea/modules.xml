@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HitungSuhu.iml" filepath="$PROJECT_DIR$/HitungSuhu.iml" />
+      <module fileurl="file://D:\AndroidProject\Tugas01-XIRPL3-38-HitungSuhu\HitungSuhu.iml" filepath="D:\AndroidProject\Tugas01-XIRPL3-38-HitungSuhu\HitungSuhu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tugas01-XIRPL3-38-HitungSuhu.iml" filepath="$PROJECT_DIR$/.idea/Tugas01-XIRPL3-38-HitungSuhu.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

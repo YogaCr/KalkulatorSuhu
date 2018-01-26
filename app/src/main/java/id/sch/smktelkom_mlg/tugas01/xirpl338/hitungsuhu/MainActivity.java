@@ -145,8 +145,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.delete:
-                int x = (int) suhuawal / 10;
-                sawal.setText(df.format(suhuawal));
+                long x = (long) suhuawal / 10;
+                sawal.setText(df.format(x));
                 suhuawal = x;
                 break;
         }
